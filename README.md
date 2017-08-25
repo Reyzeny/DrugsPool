@@ -8,7 +8,7 @@ This contains both a Web and Mobile application which helps to search for a drug
 4. Gabriel Inalegwu (Frontend)
 5. Eniodunmo Pelumi (Mobile App)
 
-# The Mobile Application
+# The Application
 
 It provides a text area where a user can enter a drug name and searches for drug names that contains the keyword specified by the user. It brings out a list of drug(s) containing the keyword specified if it exists and users can click on them to view more info about the drug such as dosage, manufacturer, adverse effect.
 
