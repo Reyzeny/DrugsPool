@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/list_tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Paracetamol"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/list_cure"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="Cures : "
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/list_tvCure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/list_cure"
+            android:text="klsjlskdjfklsdjfls"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/list_dosage"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_tvCure"
+            android:layout_marginTop="25dp"
+            android:gravity="right"
+            android:text="Dosage : "
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/list_tvDosage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_tvCure"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/list_dosage"
+            android:text="klsjlskdjfklsdjfls"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/list_manufacturer"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_tvDosage"
+            android:layout_marginTop="25dp"
+            android:gravity="right"
+            android:text="Manufacturer : "
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/list_tvManufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_tvDosage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/list_manufacturer"
+            android:text="klsjlskdjfklsdjfls"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/list_effect"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_tvManufacturer"
+            android:layout_marginTop="25dp"
+            android:gravity="right"
+            android:text="Adverse Effect : "
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/list_tvEffect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_tvManufacturer"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/list_effect"
+            android:text="klsjlskdjfklsdjfls"
+            android:textColor="@android:color/black" />
+
+    </RelativeLayout>
+
+</LinearLayout>

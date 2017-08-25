@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/teamlogo"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="top"
+        android:text="Drugs Pool"
+        android:textSize="30sp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+    <AutoCompleteTextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:paddingLeft="11dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#fff"
+        android:hint="Search Drug"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:inputType="textCapCharacters"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="160dp">
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginLeft="90dp"
+            android:elevation="16sp"
+            android:translationZ="16sp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#fff"
+            android:shadowColor="@color/colorPrimaryDark" />
+        <Button
+            android:id="@+id/see_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See All"
+            android:layout_toRightOf="@id/search_button"
+            android:elevation="16sp"
+            android:translationZ="16sp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginTop="7dp"
+            android:textColor="#fff"
+            android:shadowColor="#000"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
