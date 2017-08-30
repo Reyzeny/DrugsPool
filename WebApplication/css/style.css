@@ -1,3 +1,38 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fffff0;
+}
+/*top bar navigation section*/
+.the-head {
+	background-image: url("../images/header.jpg");
+	overflow: hidden;
+}
+.the-head #logo{
+	float: left;
+}
+#navbar{
+	margin: 0px 0px;
+	overflow: hidden;
+}
+#navbar ul li{
+	display: inline;
+	padding-left: 40px; 
+	float: left; 
+	font-size: 30px;
+	font-family: cursive helvetica sans-serif;
+	font-weight: bold; color: #ffffff;
+}
+#navbar ul li a{
+	text-decoration: none;
+	color: #000000;	
+}
+#navbar a:hover{
+	display: inline-block;
+	position: absolute;
+	background-color: #ffff00;
+}
+/**/
 #mypicture img {
 	width:300px;
 	height:300px;
@@ -21,25 +56,25 @@ a .hub{display:block;
 
 }
  .git{
-	background-color:red;
+	background-color: #ff0000;
 	width:200px;
 	border-radius:10px;
 	height:50px;
 }
 .git a{
-	color:black;
+	color: #000000;
 	font-size:18px;
 }
 .git a:hover{
 	text-decoration:none;
-	color:white;
+	color: #ffffff;
 }
 .about {
 	border-radius:5px;
 background-color:#34495e;
 text-align: center;
 padding:50px 10px 20px 10px;
-color: white;
+color: #ffffff;
 font-size:20px;
 font-family:sans-serif;
 }
@@ -49,13 +84,13 @@ font-family:sans-serif;
 background-color: #34495e;
 text-align: center;
 padding: 50px 10px 20px 10px;
-color:white;
+color: #ffffff;
 font-size:20px;
 font-family:sans-serif;
 }
 footer{
 	background-color:gray;
-	color:black;
+	color: #000000;
 	font-size:20px;
 }
 #sparkplug{
@@ -68,12 +103,20 @@ footer{
 }
 #twit {
 	padding-bottom:10px;
-	color:white;
+	color:#ffffff;
 }
 #twit a{
-color:white;
+color:#ffffff;
 }
 #twit a:hover{
 text-decoration:none;
-	color:gold;
+	color:#ffd700;
 }
+.select_section{background-color: #0000bb;
+	width: 305px;
+	float: right; position: absolute;
+	margin-top: -400px;
+	margin-left: 940px;
+	opacity: 0.75;
+}
+.select_section p{color: #ffffff; font-style: oblique; font-weight: bolder;}
